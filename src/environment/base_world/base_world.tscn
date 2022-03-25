@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://sounds/lose/EFX EXT GROUP Battle Celebration 02 A.wav" type="AudioStream" id=1]
+[ext_resource path="res://src/environment/base_world/base_world.gd" type="Script" id=2]
+[ext_resource path="res://src/environment/NavigationTileMap.tscn" type="PackedScene" id=4]
+
+[sub_resource type="Animation" id=4]
+length = 10.0
+loop = true
+
+[sub_resource type="Animation" id=5]
+length = 0.001
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 5569.0 ]
+}
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="Navigation2D" type="Navigation2D" parent="World"]
+
+[node name="TileMap" parent="World/Navigation2D" instance=ExtResource( 4 )]
+
+[node name="EntityWorld" type="YSort" parent="World"]
+
+[node name="Items" type="YSort" parent="World/EntityWorld"]
+
+[node name="Spawners" type="YSort" parent="World/EntityWorld"]
+
+[node name="Objects" type="YSort" parent="World/EntityWorld"]
+
+[node name="Players" type="YSort" parent="World/EntityWorld"]
+
+[node name="Projectiles" type="YSort" parent="World/EntityWorld"]
+
+[node name="Enemies" type="YSort" parent="World/EntityWorld"]
+
+[node name="Misc" type="YSort" parent="World/EntityWorld"]
+
+[node name="Misc2" type="Node2D" parent="World"]
+
+[node name="InfoAnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Idle = SubResource( 4 )
+anims/RESET = SubResource( 5 )
+
+[node name="WaveTimer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="Dead" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+
+[connection signal="all_dead" from="." to="." method="_on_Main_all_dead"]
