@@ -2,14 +2,11 @@ extends State
 
 
 func enter(msg := {}) -> void:
-	owner.play_animation("Accel", "Movement")
-	yield(owner.get_animation_player("Movement"), "animation_finished")
 	owner.play_animation("Run", "Movement")
 
 
 func exit() -> void:
-	owner.play_animation("Decel", "Movement")
-	yield(owner.get_animation_player("Movement"), "animation_finished")
+	pass	
 
 	
 func physics_update(delta: float) -> void:

@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/entities/items/base_templates/base_melee_weapon/BaseMeleeWeapon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Alice Production Test/assets/props/Bottle.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=2]
+resource_name = "Attack"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("../Visuals/Sprite:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 1.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -90.0, -90.0, 0.0 ]
+}
+
+[sub_resource type="Animation" id=3]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("../Visuals/Sprite:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+
+[node name="Bottle" instance=ExtResource( 1 )]
+item_type = "MELEE"
+entity_name = "BOTTLE"
+despawnable = false
+
+[node name="Position2D" parent="." index="0"]
+position = Vector2( 8, -4 )
+
+[node name="PickUpRange" parent="Position2D" index="0"]
+visible = false
+modulate = Color( 0.411765, 0.752941, 0.952941, 1 )
+
+[node name="Sprite" parent="Position2D/Visuals" index="0"]
+texture = ExtResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Position2D/AnimationMachine" index="0"]
+anims/Attack = SubResource( 2 )
+anims/RESET = SubResource( 3 )

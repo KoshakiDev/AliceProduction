@@ -19,6 +19,17 @@ var misc_2
 var root
 var UI_layer
 
+var launch_scene
+var objects
+
+
+var weapons_container = []
+
+var is_door_spawned = false
+var is_table_spawned = false
+var is_box_deleted = false
+var table
+
 var final_score
 var wave_survived
 
@@ -37,6 +48,9 @@ var ITEM_DROP_WEIGHTS = {
 }
 
 signal all_dead
+
+var is_big_room = 1
+
 
 func _ready():
 	enemy_count = 0

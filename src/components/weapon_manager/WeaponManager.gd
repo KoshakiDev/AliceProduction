@@ -11,7 +11,25 @@ var cur_weapon = null
 
 var weapon_owner: Node2D
 
+var CAKE_INSTANCE = load("res://Alice Production Test/src/props/Cake.tscn")
+var BOTTLE_INSTANCE = load("res://Alice Production Test/src/props/Bottle.tscn")
+var KEY_INSTANCE = load("res://Alice Production Test/src/props/Key.tscn")
+
 func _ready():
+	if Global.weapons_container != null:
+		for weapon in Global.weapons_container:
+			if weapon == "NOTHING":
+				continue
+			var weapon_instance
+				
+			if weapon == "CAKE":
+				weapon_instance = CAKE_INSTANCE.instance()	
+			if weapon == "BOTTLE":
+				weapon_instance = BOTTLE_INSTANCE.instance()
+			if weapon == "KEY":
+				weapon_instance = KEY_INSTANCE.instance()
+			add_child(weapon_instance)
+			add_weapon(weapon_instance)
 	if weapons.size() != 0:
 		switch_to_weapon_slot(cur_slot)
 
@@ -105,3 +123,6 @@ func update_children():
 	cur_weapon = null
 
 	switch_to_weapon_slot(cur_slot)
+	for weapon in weapons:
+		if !weapon.entity_name in Global.weapons_container:
+			Global.weapons_container.append(weapon.entity_name)

@@ -1,0 +1,949 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"action": "join",
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Happy",
+			"text": "Quite nice, actually. Popcorn? \nIs it popcorn? \nButtered toast."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Think",
+			"text": "[color=yellow]BIG DOOR[/color].\nThat grew when I –\nOr did I shrink? \nDid I shrink?"
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "God this is –\nMaybe I shrank. \nMaybe I’m tiny. \nHave I shrunk?"
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Happy",
+			"text": "Whatever – result! \nGood result! \nGoing through [color=yellow]THE DOOR[/color] –"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You don't have a key to open [color=yellow]THIS DOOR[/color]!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Angry",
+			"text": "What? Come on!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 10,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Very_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Very_Distressed",
+			"text": "[nw=0.8][shake rate=10 level=15][b][speed=0]NO NO NO NO NO NO NO NO NO NO NO NO[/b][/shake]"
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[nw=0]The key!"
+		},
+		{
+			"animation": "flash.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]...the key..."
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]...the key..."
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]Where’s the key! "
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]Where’s the key?"
+		},
+		{
+			"animation": "swing.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]Where’s the key!?"
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]Where’s the key???"
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.2,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0.8][shake rate=10 level=15][b][speed=0]Where’s the bloody key?![/b][/shake]"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "shake_y.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 10,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Duck",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3.3
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Duck",
+			"text": "[shake rate=10 level=15]Oh god...[/shake]"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "I can’t do it without the key."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bunny summoned \"Cake\""
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Angry",
+			"text": "I said KEY not cake."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "‘Eat Me’"
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Aha",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Aha",
+			"text": "That looks nice, actually."
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "Yeah, Stranger Danger. Don’t eat the sweets."
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Think",
+			"text": "What happens if I eat it?\nWhat happens if I don’t?"
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Alice_Think",
+			"question": "Eat the Cake?"
+		},
+		{
+			"choice": "Yeah!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Aha",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s actually really nice."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ooh, Alton Towers..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is so much nicer than Mr Kiplings. What’s in that icing?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Think",
+			"text": "Oh yay, have I grown? "
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve grown!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]The key!\n[nw=0]The key!\n[nw=0]The key!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You found the \"Key\"!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The key!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no.\nIt’s like a computer game, this. \n[color=red]I hate computer games.[/color]\nThis is bloody stupid."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OK.\nComputer game."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You drank \"Drink Me\"!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Happy",
+			"text": "Good,good, good!"
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "OK. Here we go. \nGot the key...\nGot the door... \nHere we go."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You unlocked the Door!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1642765028.json",
+		"name": "03"
+	}
+}

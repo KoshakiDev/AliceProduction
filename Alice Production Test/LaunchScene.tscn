@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Alice Production Test/BigRoom.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Alice Production Test/LaunchScene.gd" type="Script" id=5]
+
+[node name="LaunchScene" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Main" parent="." instance=ExtResource( 3 )]

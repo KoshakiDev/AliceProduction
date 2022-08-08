@@ -51,6 +51,7 @@ tracks/0/keys = {
 [node name="HitEffect" instance=ExtResource( 1 )]
 
 [node name="Sprite" parent="." index="0"]
+scale = Vector2( 2, 2 )
 texture = ExtResource( 2 )
 hframes = 2
 

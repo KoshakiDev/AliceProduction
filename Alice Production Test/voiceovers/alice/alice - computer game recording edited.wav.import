@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/alice - computer game recording edited.wav-00da7e8eda8b26b1ded21732f9b744a6.sample"
+
+[deps]
+
+source_file="res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav"
+dest_files=[ "res://.import/alice - computer game recording edited.wav-00da7e8eda8b26b1ded21732f9b744a6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

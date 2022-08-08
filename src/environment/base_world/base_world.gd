@@ -15,6 +15,7 @@ onready var misc = $World/EntityWorld/Misc
 onready var misc_2 = $World/Misc2
 onready var navigation = $World/Navigation2D
 
+onready var objects = $World/EntityWorld/Objects
 #var wave_num = 0
 #var points = 0
 var is_wave_updating = false
@@ -22,6 +23,8 @@ var is_wave_updating = false
 #var enemy_count = 0
 
 signal all_dead
+
+export var is_big_room = true
 
 func _ready():
 	Global.enemy_count = 0
@@ -40,6 +43,7 @@ func _ready():
 	Global.set("misc", misc)
 	Global.set("navigation", navigation)
 	Global.set("misc_2", misc_2)
+	Global.set("objects", objects)
 	
 	#yield(get_tree().root, "ready")
 	
@@ -47,6 +51,13 @@ func _ready():
 	
 	#update_wave()
 	Global.connect("all_dead", self, "all_players_dead")
+	if Global.is_big_room == 1:
+		if Global.is_table_spawned:
+			spawn_table()
+		if Global.is_door_spawned:
+			spawn_small_door()
+		if Global.is_box_deleted:
+			delete_box()
 	
 #func update_board():
 #	print(points)
@@ -92,3 +103,59 @@ func show_death_screen():
 
 func back_to_menu():
 	SceneChanger.change_scene("res://src/menu/Menu.tscn", "fade")
+
+func _input(event):
+	if event.is_action_pressed("switch_rooms"):
+		if Global.is_big_room == 1: 
+			change_to_small_room()
+		else:
+			change_to_big_room()
+		Global.is_big_room *= -1
+	if event.is_action_pressed("spawn_table"):
+		spawn_table()
+	if event.is_action_pressed("spawn_bottle"):
+		spawn_bottle()
+	if event.is_action_pressed("spawn_door"):
+		spawn_small_door()
+	if event.is_action_pressed("spawn_cake"):
+		spawn_cake()
+
+
+var TABLE_SCENE = load("res://Alice Production Test/src/props/Table.tscn")
+var BOTTLE_SCENE = load("res://Alice Production Test/src/props/Bottle.tscn")
+var SMALL_DOOR_SCENE = load("res://Alice Production Test/src/props/DoorSmall.tscn")
+var CAKE_SCENE = load("res://Alice Production Test/src/props/Cake.tscn")
+
+
+func spawn_table():
+	var table_instance = TABLE_SCENE.instance()
+	table_instance.global_position = Vector2(516, 350)
+	Global.objects.add_child(table_instance)
+	Global.set("table", table_instance)
+	Global.is_table_spawned = true
+
+func spawn_bottle():
+	var bottle_instance = BOTTLE_SCENE.instance()
+	bottle_instance.global_position = Vector2(675, 360)
+	Global.items.add_child(bottle_instance)
+		
+
+func spawn_small_door():
+	var door_instance = SMALL_DOOR_SCENE.instance()
+	door_instance.global_position = Vector2(516, 256)
+	Global.objects.add_child(door_instance)
+	Global.is_door_spawned = true
+
+func spawn_cake():
+	var cake_instance = CAKE_SCENE.instance()
+	cake_instance.global_position = Vector2(512, 340)
+	Global.items.add_child(cake_instance)
+	
+func delete_box():
+	$World/EntityWorld/Objects/Box.queue_free()
+
+func change_to_big_room():
+	SceneChanger.change_scene("res://Alice Production Test/BigRoom.tscn", "fade")
+
+func change_to_small_room():
+	SceneChanger.change_scene("res://Alice Production Test/SmallRoom.tscn", "fade")

@@ -1,0 +1,25 @@
+{
+	"color": "#ff67adf4",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1642762865.json",
+	"mirror_portraits": true,
+	"name": "Bunny",
+	"nickname": "Rabbit",
+	"nickname_bool": true,
+	"offset_x": -50,
+	"offset_y": 300,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Alice Production Test/dialogue_portraits/bunny/Bunny_Default.png"
+		},
+		{
+			"name": "Bunny_Yell",
+			"path": "res://Alice Production Test/dialogue_portraits/bunny/Bunny_Yell.png"
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}

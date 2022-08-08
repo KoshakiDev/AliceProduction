@@ -1,0 +1,53 @@
+{
+	"color": "#fff24649",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1642762855.json",
+	"mirror_portraits": false,
+	"name": "Alice",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 50,
+	"offset_y": 50,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Default.png"
+		},
+		{
+			"name": "Alice_Aha",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Aha.png"
+		},
+		{
+			"name": "Alice_Angry",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Angry.png"
+		},
+		{
+			"name": "Alice_Bruh",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Bruh.png"
+		},
+		{
+			"name": "Alice_Distressed",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Distressed.png"
+		},
+		{
+			"name": "Alice_Duck",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Duck.png"
+		},
+		{
+			"name": "Alice_Happy",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Happy.png"
+		},
+		{
+			"name": "Alice_Think",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Think.png"
+		},
+		{
+			"name": "Alice_Very_Distressed",
+			"path": "res://Alice Production Test/dialogue_portraits/alice/Alice_Very_Distressed.png"
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}

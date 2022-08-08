@@ -1,0 +1,1076 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "No, wait, where are you –",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 2.3,
+					"stop_time": 3.6
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 2.3,
+					"stop_time": 3.6
+				}
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How does this open? How does this –",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 3.6,
+					"stop_time": 5.2
+				}
+			}
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 0.5,
+			"animation_repeat": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "Come out I want to talk to you.\nPlease come out. Please don’t leave me.",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 7.7,
+					"stop_time": 7.7
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 7.7,
+					"stop_time": 7.7
+				}
+			}
+		},
+		{
+			"emit_signal": "BOXFALLS",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 15,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Very_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Very_Distressed",
+			"text": "[nw=0.8][shake rate=10 level=15][b][speed=0]NO NO NO NO NO NO NO NO NO NO NO NO[/b][/shake]\n[speed=2]Wait, don’t –\n[speed=5]Don’t go. [speed=2]Please.",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 13.7,
+					"stop_time": 11.7
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 13.7,
+					"stop_time": 11.7
+				},
+				"2": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 13.7,
+					"stop_time": 11.7
+				}
+			}
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 50,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Angry",
+			"text": "[shake rate=10 level=15][b]DON'T BLOODY LEAVE ME HERE!!![/b][/shake]",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 15.9,
+					"stop_time": 17.8
+				}
+			}
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]UGH[/b]",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 19.7,
+					"stop_time": 20.5
+				}
+			}
+		},
+		{
+			"emit_signal": "HIT",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Very_Distressed",
+			"text": "[shake rate=10 level=15][b][speed=15]Ow[/b][/shake]",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 20.6,
+					"stop_time": 21.6
+				}
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[speed=10]That hurt\n[speed=5]That hurt",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 22.8,
+					"stop_time": 22.3
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 22.8,
+					"stop_time": 22.3
+				}
+			}
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bunny deleted \"Box\""
+		},
+		{
+			"emit_signal": "BOXDELETED",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[nw=1.2]So what’s –\n[nw=1.2]Where. Is –\n[nw=1.2]Who.\n[nw=1.2]Was –\n[nw=1.2]Who? \n[nw=1.2]Um?\n[nw=1.2]Am –\nWhere’s my mum and dad?\n[nw=0.5]Ow. \n[nw=0.5]Ow, that.\nOw that hurts",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"10": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"11": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"2": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"3": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"4": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"5": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"6": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"7": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"8": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				},
+				"9": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 35.4,
+					"stop_time": 27.2
+				}
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "Where’s the girl gone with the ear things... \nRabbit things... \n...Ears?\nNot here.\nOw.",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 41.8,
+					"stop_time": 39.2
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 41.8,
+					"stop_time": 39.2
+				},
+				"2": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 41.8,
+					"stop_time": 39.2
+				},
+				"3": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 41.8,
+					"stop_time": 39.2
+				},
+				"4": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 41.8,
+					"stop_time": 39.2
+				}
+			}
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "OK. [color=fuchsia]GET OUT[/color]. \nIf you can [color=fuchsia]GET IN[/color] got to be able to [color=fuchsia]GET OUT[/color], surely.",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 43.5,
+					"stop_time": 43.5
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 43.5,
+					"stop_time": 43.5
+				}
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "I mean, how did I – \nHow did I [color=fuchsia]GET IN[/color]?\nWhere’s [color=yellow]THE DOOR[/color]?\nWhere would they put [color=yellow]THE DOOR[/color]?\nIf I was making this room... \nWhere would I put [color=yellow]THE DOOR[/color]?\nOw, is that a splinter?",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"1": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"2": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"3": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"4": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"5": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				},
+				"6": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"start_time": 52.6,
+					"stop_time": 46.9
+				}
+			}
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Think",
+			"text": "If I was a complete mentalist...\n...and I was making a deliberately confusing room...",
+			"voice_data": {
+				"0": {
+					"audio_bus": "Master",
+					"file": "res://Alice Production Test/voiceovers/alice/alice - computer game recording edited.wav",
+					"stop_time": 55
+				}
+			}
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Alice_Think",
+			"question": "Where would I put [color=yellow]THE DOOR[/color]?"
+		},
+		{
+			"choice": "Ceiling",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Wall",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Floor",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Aha",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Aha",
+			"text": "On the ceiling."
+		},
+		{
+			"emit_signal": "CEILING",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "There isn’t a ceiling. Brilliant."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bunny summoned \"Table\""
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 30,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[nw=0]That – \n[nw=0]That wasn’t there. \n[nw=0]That was not there –\n[nw=0]That’s come from –\nWhere did that come from?\n[nw=0]It must’ve – \nI must just not’ve seen it \nit’s OK"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You found a \"Key\"!"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Think",
+			"text": "OK. OK, for what?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bunny summoned a [color=yellow]\"COMICALLY SMALL DOOR\"[/color]!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 10,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "[nw=0]Right. Is that –\nIf that’s [color=fuchsia]THE WAY OUT[/color]... \n...then it’s a rubbish one...\n...if that’s the only [color=fuchsia]WAY OUT[/color].\n[nw=0]Is that seriously the –\nHow’m I supposed to [color=fuchsia]GET THROUGH[/color] [color=yellow]THAT[/color]?\nThis is stupid."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bunny summoned a \"Drink Me\"!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"animation_repeat": 30,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Distressed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[nw=0]Um, no. No – \nWho put that there?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Distressed",
+			"text": "[nw=0]Seriously, who put that there?\nI don’t think this is funny, by the way. \nI think this is just. Actually childish, so–"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[nw=0]And this is...\n[nw=1]...and this is...\n[nw=2]...and this is... \n[nw=3]...what is this?\n‘Drink Me’"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "Drink Me?  "
+		},
+		{
+			"choice": "Good Idea!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Bad Idea!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "[color=red]Bad idea.[/color]"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Think",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What would Jo do?"
+		},
+		{
+			"choice": "Run!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Step!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Walk!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alice_Bruh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1642762855.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alice_Bruh",
+			"text": "Step of the kerb without looking. \nOf course."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You drank \"Drink Me\"!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1642765028.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1642763660.json",
+		"name": "02"
+	}
+}
